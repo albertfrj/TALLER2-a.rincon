@@ -12,7 +12,8 @@
     <h2>Animales disponibles:</h2>
     <ul>
         {% for animal, sound in animals.items() %}
-        <li>{{ animal.title() }}: "{{ sound }}"</li>
+        <li>{{ animal.title() }}</li>
+        
         {% endfor %}
     </ul>
 </body>
